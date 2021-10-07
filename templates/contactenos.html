@@ -1,0 +1,10 @@
+{% block content %}
+<h1>Contacténos</h1>
+    <form>
+        <p>{{form.nombre.label}} <br> {{form.nombre()}}</p>
+        <p>{{form.correo.label}} <br> {{form.correo()}}</p>
+        <p>{{form.mensaje.label}} <br> {{form.mensaje(size=80)}}</p>
+        <p>{{form.boton()}}</p>
+    </form>
+    
+{% endblock %}
